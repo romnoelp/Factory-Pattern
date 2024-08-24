@@ -1,18 +1,13 @@
-## Getting Started
+## Problem 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
 
-## Folder Structure
+Dog and Cat are concrete objects that implements Pet interface.
 
-The workspace contains two folders by default, where:
+PetRecord holds attributes such as petId, petName, and Pet.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Clinic would be the client object.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Refer to the UML Class Diagram
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://github.com/user-attachments/assets/959e50ca-d421-474c-a1df-6535e5945bae)
