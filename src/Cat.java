@@ -1,5 +1,7 @@
 public class Cat implements Pet {
     private Integer noOfLives;
+    private String petId;
+    private String petName;
 
     public Integer getNoOfLives() {
         return noOfLives;
@@ -17,5 +19,25 @@ public class Cat implements Pet {
     @Override
     public String play() {
         return "Catching/pursuing moving objects!";
+    }
+
+    @Override
+    public String getPetId() {
+        return petId;
+    }
+
+    @Override
+    public void setPetId(String petId) {
+        this.petId = petId;
+    }
+
+    @Override
+    public String getPetName() {
+        return petName;
+    }
+
+    @Override
+    public void setPetName(String petName) {
+        this.petName = petName;
     }
 }
